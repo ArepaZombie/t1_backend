@@ -1,0 +1,4 @@
+1;ABC-123;KIA;Sajajin;5;26000;Azul
+2;BAT-M4N;Wayne;Batimovil;2;9999999999;Negro
+3;ASR-121;KIA;Sportage;5;26000;Negro
+4;FAD-124;Toyota;Rav;5;26000;Rojo
