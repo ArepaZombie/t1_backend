@@ -28,17 +28,17 @@ public class BusquedaController {
 
       if(vehiculo == null) {
         return new BusquedaResponse("01","Placa no encontrada",
-          "","","","","","");
+          "","","","","");
       }
-      System.out.println("Respuesta:"+ Arrays.toString(vehiculo));
+      //System.out.println("Respuesta:"+ Arrays.toString(vehiculo));
 
       return new BusquedaResponse("00","",
-        vehiculo[1],vehiculo[2],vehiculo[3],vehiculo[4],vehiculo[5],vehiculo[6]);
+        vehiculo[2],vehiculo[3],vehiculo[4],vehiculo[5],vehiculo[6]);
 
 
     }catch (Exception e) {
       return new BusquedaResponse("01","Error de servicio",
-        "","","","","","");
+        "","","","","");
     }
 
 
